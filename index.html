@@ -21,21 +21,63 @@
   <link rel="stylesheet" href="styles.css">
   <link rel="icon" href="favicon.ico">
 
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    @media screen {    
+
+        .content {
+          max-width: 600px;
+          margin: auto;
+        }
+      
+        .column {
+          float: left;
+          width: 33.33%;
+          padding: 1%;
+        }
+
+        .row {
+          display: flex;
+          flex-wrap: nowrap;
+          padding: 0px 0px 0px 0px;
+        }      
+
+        /* Clearfix (clear floats) */
+        .row::after {
+          content: "";
+          clear: both;
+          display: table;
+        }
+
+        img {
+          width: -moz-fit-content;
+          width: fit-content;
+          max-width: 100%;
+          height: auto;
+        }
+    }
+  </style>
 </head>
 
 <body>
 
   <h1 id="title">Play 🎹 Piano</h1>
   <div class="set">
-    <button class="s drum">s</button>
-    <button class="d drum">d</button>
-    <button class="f drum">f</button>
-    <button class="g drum">g</button>
-    <button class="h drum">h</button>
-    <button class="j drum">j</button>
-    <button class="k drum">k</button>
-    <button class="l drum">l</button>    
-    <!-- <button class="l drum">l</button> -->
+    <div class="row">
+      <button class="column s drum">s</button>
+      <button class="column d drum">d</button>
+      <button class="column f drum">f</button>
+      <button class="column g drum">g</button>
+    </div>
+    <div class="row">
+      <button class="column h drum">h</button>
+      <button class="column j drum">j</button>
+      <button class="column k drum">k</button>
+      <button class="column l drum">l</button>    
+      <!-- <button class="l drum">l</button> -->
+    </div>
   </div>
 
   <script src="app.js"></script>
