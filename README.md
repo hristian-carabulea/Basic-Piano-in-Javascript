@@ -5,4 +5,4 @@
 ### - You can watch two example-videos in the videos folder.
 ###
 ### I am doing my part in bringing joy to your life during Christmas Holidays.
-# Happy 🎲🌟🍾🌲 Holidays 🌲🍾🌟🎲 Y'all!
+# Happy 🌟🍾🌲 Holidays 🌲🍾🌟 Y'all!
