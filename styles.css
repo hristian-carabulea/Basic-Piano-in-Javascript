@@ -54,12 +54,12 @@ footer {
 
 .game-over {
   background-color: red;
-  opacity: 0.8;
+  opacity: 0.6;
 }
 
 .pressed {
-  box-shadow: 0 3px 4px 0 #DBEDF3;
-  opacity: 0.5;
+  box-shadow: 0 3px 4px 0 #ff5444;
+  opacity: 0.4;
 }
 
 .red {
