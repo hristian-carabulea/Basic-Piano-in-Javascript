@@ -1,11 +1,11 @@
 // v. 2021-12-14a
 
-var numOfDrumButtons = document.querySelectorAll(".drum").length;
+var numOfPianoKeys = document.querySelectorAll(".pianoKey").length;
 
-for (var i=0; i<numOfDrumButtons; i++) {
+for (var i=0; i<numOfPianoKeys; i++) {
 
   // mouse click functionality
-  document.querySelectorAll(".drum")[i].addEventListener("click", function() {
+  document.querySelectorAll(".pianoKey")[i].addEventListener("click", function() {
 
     var buttonInnerHTML = this.innerHTML;
 
